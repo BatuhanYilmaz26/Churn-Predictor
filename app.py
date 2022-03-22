@@ -96,6 +96,7 @@ def main():
 
     elif add_selectbox == "Batch":
         st.write("#### Batch Prediction")
+        st.write("You can use this [sample dataset](https://github.com/BatuhanYilmaz26/Churn-Predictor/blob/master/data/batch_churn.csv) to experiment with the batch prediction.")
         file_upload = st.file_uploader("Please upload the CSV file to get predictions.", type=["csv"])
         if file_upload is not None:
             df = pd.read_csv(file_upload)
