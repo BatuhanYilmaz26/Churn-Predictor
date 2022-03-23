@@ -9,6 +9,7 @@
 - The dataset contains information about customer demographics, payment details and services that the customer signed up for.
 - Trained and evaluated various machine learning models such as Logistic Regression, SVC, Random Forest Classifier, Decision Tree Classifier, XGBoost Classifier, LightGBM Classifier. 
 - Performed feature selection using Recursive Feature Elimination technique and tuned the hyperparameters for the best performing model which was Logistic Regression model.
+- Logistic Regression model predicts whether the customer is likely to churn or happy with the services, with an accuracy score of 81.1% and an F1 score of 80.6%.
 - Saved the best model using [joblib library](https://joblib.readthedocs.io/en/latest/) and used it to build an interactive web application.
 - Built the web app using [Streamlit](https://streamlit.io) and deployed it on [Heroku](https://www.heroku.com).
 - You can take a look at the [interactive demo](https://churn-predictorx.herokuapp.com) to see how the customer churn prediction system works.
